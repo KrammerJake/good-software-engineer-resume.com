@@ -252,16 +252,17 @@ const Resume = () => {
         aria-label="Download Resume"
         border="1px solid black"
         colorScheme="blue"
+        leftIcon={<DownloadIcon />}
         onClick={() => {
           window.open(downloadPDFLink, "_blank");
         }}
       >
-        <DownloadIcon />
-        <Text ml={2}>PDF</Text>
+        PDF
       </Button>
       <Button
         aria-label="Download Resume"
         border="1px solid black"
+        leftIcon={<FaGithub />}
         ml={2}
         onClick={() => {
           window.open(
@@ -270,8 +271,7 @@ const Resume = () => {
           );
         }}
       >
-        <FaGithub />
-        <Text ml={2}>Code</Text>
+        Code
       </Button>
     </Center>
   );
