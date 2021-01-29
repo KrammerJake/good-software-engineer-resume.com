@@ -1,0 +1,22 @@
+\documentclass[]{mcdowellcv}
+
+% For mathematical symbols
+\usepackage{amsmath}
+
+% For GitHub and LinkedIn icons
+\usepackage{fontspec}
+\usepackage{fontawesome}
+
+% Set applicant's personal data for header
+%%PERSONAL_INFO_SECTION
+
+\begin{document}
+
+  % Print the header
+  \makeheader
+
+  %%EMPLOYMENT_SECTION
+  %%EDUCATION_SECTION
+  %%AWARDS_SECTION
+
+\end{document}

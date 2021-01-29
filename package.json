@@ -1,0 +1,60 @@
+{
+  "name": "good-software-engineer-resume.com",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/icons": "^1.0.3",
+    "@chakra-ui/react": "^1.1.5",
+    "@emotion/react": "^11.1.4",
+    "@emotion/styled": "^11.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
+    "framer-motion": "^3.2.1",
+    "mousetrap": "^1.6.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.1.0",
+    "react-scripts": "4.0.1",
+    "typescript": "^4.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "generate:tex": "node ./scripts/validateResumeJSON.js && node ./scripts/generateTexFromJSON.js",
+    "generate:pdf": "~/bin/lualatex --output-directory=./public/ --aux-directory=./pdf_generator/ ./pdf_generator/resume.tex",
+    "update-resume": "yarn generate:tex && yarn generate:pdf",
+    "deploy-dev": "yarn build && netlify deploy --dir=build",
+    "deploy-prod": "yarn build && netlify deploy --dir=build --prod ",
+    "yellowlight": "yarn update-resume && yarn deploy-dev",
+    "greenlight": "yarn update-resume && yarn deploy-prod",
+    "validate:json": "node ./scripts/validateResumeJSON.js",
+    "scripts": "cat package.json | jq .scripts"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/mousetrap": "^1.6.5",
+    "@types/react-icons": "^3.0.0",
+    "chalk": "^4.1.0",
+    "lodash.has": "^4.5.2",
+    "prettier": "2.2.1"
+  }
+}

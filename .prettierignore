@@ -1,0 +1,5 @@
+.netlify
+build
+node_modules
+public
+pdf_generator

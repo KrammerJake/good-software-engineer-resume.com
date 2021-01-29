@@ -1,0 +1,135 @@
+{
+  "downloadPDFLink": "https://good-software-engineer-resume.com/resume.pdf",
+  "personalInfo": {
+    "name": "Jane Doe",
+    "email": "jane.doe@gmail.com",
+    "phone": "(555) 123-4567",
+    "social": {
+      "github": { "url": "https://github.com/octocat", "username": "octocat" },
+      "linkedin": {
+        "url": "https://www.linkedin.com/in/satyanadella/",
+        "username": "satyanadella"
+      }
+    }
+  },
+  "degrees": {
+    "bs_cs": {
+      "id": "bs_cs",
+      "schoolName": "State University",
+      "title": "B.S. in Computer Science",
+      "enrollmentDateRange": {
+        "startDateStr": "Aug 2010",
+        "endDateStr": "Dec 2014"
+      },
+      "description": [
+        "Teaching assistant for CS XYZ: Data Structures and Algorithms",
+        "Research assistant for Professor X in the Machine Learning and Data Science Lab",
+        "Capstone Project: Taking Skynet Live Using AI Blockchain ML"
+      ]
+    }
+  },
+  "jobs": {
+    "company1": {
+      "id": "company1",
+      "role": "Senior Software Developer",
+      "companyName": "Pied Piper",
+      "employmentDateRange": {
+        "startDateStr": "Aug 2017",
+        "endDateStr": "Dec 2020"
+      },
+      "description": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
+      ],
+      "technologies": ["Typescript", "Node.js", "React", "Redux", "Webpack"]
+    },
+    "company2": {
+      "id": "company2",
+      "role": "Software Developer",
+      "companyName": "Initech",
+      "employmentDateRange": {
+        "startDateStr": "Sep 2015",
+        "endDateStr": "Aug 2017"
+      },
+      "description": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
+      ],
+      "technologies": ["PHP", "Node.js", "MySQL", "AWS", "Git", "GitHub"]
+    },
+    "company3": {
+      "id": "company3",
+      "role": "Software Developer (Intern)",
+      "companyName": "E Corp",
+      "employmentDateRange": {
+        "startDateStr": "Jun 2013",
+        "endDateStr": "Sep 2015"
+      },
+      "description": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
+      ],
+      "technologies": ["Java", "Spring", "Swagger", "mongoDB", "Docker", "ECS"]
+    },
+    "company4": {
+      "id": "company4",
+      "role": "Software Developer (Student)",
+      "companyName": "State University",
+      "employmentDateRange": {
+        "startDateStr": "Oct 2012",
+        "endDateStr": "Jun 2013"
+      },
+      "description": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
+      ],
+      "technologies": [
+        "C#",
+        "Entity Framework",
+        ".NET Web API",
+        "Bootstrap",
+        "Angular",
+        "Microsoft SQL Server"
+      ]
+    },
+    "company5": {
+      "id": "company5",
+      "role": "Software Developer (Intern)",
+      "companyName": "Buy n Large",
+      "employmentDateRange": {
+        "startDateStr": "May 2011",
+        "endDateStr": "Aug 2012"
+      },
+      "description": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
+      ],
+      "technologies": [
+        "C#",
+        "Javascript",
+        "Entity Framework",
+        "Bootstrap",
+        "Microsoft SQL Server",
+        "SQL Server Integration Services"
+      ]
+    }
+  },
+  "awards": {
+    "award1": {
+      "id": "award1",
+      "columnHeader1": "1st Place",
+      "columnHeader2": "Some Hackathon",
+      "columnHeader3": "Oct 2015",
+      "description": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
+      ]
+    }
+  }
+}
