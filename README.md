@@ -2,8 +2,6 @@
 
 I wanted a simple solution to keep [a personal website](https://good-software-engineer-resume.com) and [PDF](https://good-software-engineer-resume.com/resume.pdf) updated using a single `resume.json` file.
 
-NOTE: You can `toggle` dark mode on the website by pressing `t` on your keyboard.
-
 # Acknowledgements
 
 Both the website and generated PDF are based on Gayle Laakmann McDowell's [awesome resume format](https://www.careercup.com/resume). You can also download a [Microsoft Word version](https://careercup.com/static_html/Gayle_McDowell_CareerCup_Sample_Resume.doc) if that is all you're looking for.
@@ -40,6 +38,12 @@ cd my_awesome_resume
 ```zsh
 yarn && yarn start
 ```
+
+#### KeyBindings
+
+| Key Binding  | Description            |
+| ------------ | ---------------------- |
+| <kbd>T</kbd> | Toggle light/dark mode |
 
 ### PDF Generation
 
