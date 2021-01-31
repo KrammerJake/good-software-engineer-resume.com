@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a4279658-6d71-4f2a-b593-e6bf6297dc4e/deploy-status)](https://app.netlify.com/sites/jakekrammer-resume/deploys)
+
 # Purpose
 
 I wanted a simple solution to keep [a personal website](https://good-software-engineer-resume.com) and [PDF](https://good-software-engineer-resume.com/resume.pdf) updated using a single `resume.json` file.
