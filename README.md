@@ -2,20 +2,20 @@
 
 # Purpose
 
-I wanted a simple solution to keep [a personal website](https://good-software-engineer-resume.com) and [PDF](https://good-software-engineer-resume.com/resume.pdf) updated using a single `resume.json` file.
+A simple solution to keep [a personal website](https://good-software-engineer-resume.com) and [PDF](https://good-software-engineer-resume.com/resume.pdf) updated using a single `resume.json` file.
 
 # Acknowledgements
 
-Both the website and generated PDF are based on Gayle Laakmann McDowell's [awesome resume format](https://www.careercup.com/resume). You can also download a [Microsoft Word version](https://careercup.com/static_html/Gayle_McDowell_CareerCup_Sample_Resume.doc) if that is all you're looking for.
+Both the website and generated PDF are based on Gayle Laakmann McDowell's [awesome resume format](https://www.careercup.com/resume). A [Microsoft Word template](https://careercup.com/static_html/Gayle_McDowell_CareerCup_Sample_Resume.doc) is also available if that is all you're looking for.
 
 **Website**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and uses [Chakra-UI](https://chakra-ui.com/)'s component library. I highly recommend both tools for React projects. My site is deployed using [Netlify](https://www.netlify.com/).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and uses [Chakra-UI](https://chakra-ui.com/)'s component library. [good-software-engineer-resume.com](https://good-software-engineer-resume.com) is deployed using [Netlify](https://www.netlify.com/).
 
 **LaTeX to PDF Resume Generation**
 
 Huge shout-out to the [dnl-blkv/mcdowell-cv](https://github.com/dnl-blkv/mcdowell-cv) repo for laying the groundwork for
-LaTeX to PDF resume generation. This project would have taken a lot longer if I had to learn LaTeX from scratch. THANK YOU!
+LaTeX to PDF resume generation! 
 
 # Overview
 
